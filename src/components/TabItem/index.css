@@ -1,0 +1,21 @@
+.category-names {
+  color: #7b8794;
+  margin: 20px;
+  margin-top: 30px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.isActive {
+  margin: 20px;
+  margin-top: 30px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #2563eb;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #2563eb;
+}
