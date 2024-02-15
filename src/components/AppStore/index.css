@@ -36,7 +36,10 @@
 }
 .Category-headers {
   display: flex;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
+  margin-left: 0px;
 }
 .appList-container {
   display: flex;
@@ -44,5 +47,22 @@
   align-items: center;
   flex-wrap: wrap;
   list-style-type: none;
-  width: 90%;
+}
+@media (max-width: 576px) {
+  .heading {
+    font-family: Bree Serif;
+    font-size: 30px;
+  }
+  .inputElement {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 250px;
+    font-size: 20px;
+    padding-left: 8px;
+  }
+  .searchIcon {
+    width: 25px;
+    height: 25px;
+  }
 }
